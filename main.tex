@@ -1,4 +1,6 @@
 \documentclass[titlepage]{article}
+\usepackage{hyperref}
+\usepackage{xcolor}
 \title{Final CW Assignment}
 \author{Sadra Sefidgari}
 
@@ -57,7 +59,11 @@ but it's also possible to use it with other languages as well.
 \subsubsection{Using fzf to find your favorite PDF}
     find . -name "*.pdf" | fzf
 \subsubsection{Opening the file using Zathura}
-    zathura &(find . -name "*.pdf")
+    zathura \$(find . -name "*.pdf")
+\section{Git and FOSS}
+\subsubsection{README.md}
+    You can check it out \href{https://github.com/Sdrf1445/CW1402FINAL}{\textcolor{blue}{here}}  
+
    
 \end{itemize}
 
