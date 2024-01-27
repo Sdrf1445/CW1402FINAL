@@ -1,7 +1,8 @@
 \documentclass[titlepage]{article}
 \usepackage{hyperref}
 \usepackage{xcolor}
-\title{Final CW Assignment}
+\usepackage{graphicx}
+\title{\textbf{Final CW Assignment}}
 \author{Sadra Sefidgari}
 
 \begin{document}
@@ -56,6 +57,7 @@ but it's also possible to use it with other languages as well.
   It uses a metric called "edit distance" to achieve this.This metric indicates how much is the word we searched is far from the original term that exists on the list.
     It also do this word by word, rather than just applying it to the whole search term.
 \item It first gets a list of directories and files in the current directory and then pipes it to the fzf , where it shows an interactive menu where you can search stuff using the fuzzy search algorythm and look for files inside it.
+\end{itemize}
 \subsubsection{Using fzf to find your favorite PDF}
     find . -name "*.pdf" | fzf
 \subsubsection{Opening the file using Zathura}
@@ -63,9 +65,12 @@ but it's also possible to use it with other languages as well.
 \section{Git and FOSS}
 \subsubsection{README.md}
     You can check it out \href{https://github.com/Sdrf1445/CW1402FINAL}{\textcolor{blue}{here}}  
+\subsection{Issues}
+\includegraphics[width=0.8\textwidth]{screen.png}
+
+
 
    
-\end{itemize}
 
 
 
