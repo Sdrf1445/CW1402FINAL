@@ -43,7 +43,7 @@ This causes program to have the memory during its life cycle, resulting in more 
 To ensure this does not happen,  we must use functions like free() to aviod any possible memory leak.
 This manily happens in C and C++ because of the manual memory management that happens inside them.
 \subsubsection{Memory profilers}
-Valgrind contains a set of tools to help debug and diognose any sort of thread bug or memory lea and even memory errors in your app.
+Valgrind contains a set of tools to help debug and diognose any sort of thread bug or memory leak and even memory errors in your app.
 It first started as a linux-only thing. Later on, it extended as a framework which specialize in this matter.
 It runs on Linux really well and you can run it on windows through WSL.Also supports andriod (ARM) and older mac os machines.
 This tool , can also check if we are trying to access invaild or undefined memory space and tell us about it.
@@ -61,9 +61,9 @@ but it's also possible to use it with other languages as well.
 \item It first gets a list of directories and files in the current directory and then pipes it to the fzf , where it shows an interactive menu where you can search stuff using the fuzzy search algorythm and look for files inside it.
 \end{itemize}
 \subsubsection{Using fzf to find your favorite PDF}
-    find . -name "*.pdf" | fzf
+    \texttt{find . -name "*.pdf" | fzf}
 \subsubsection{Opening the file using Zathura}
-    zathura \$(find . -name "*.pdf")
+    \texttt{zathura \$(find . -name "*.pdf" | fzf)}
 \section{Git and FOSS}
 \subsubsection{README.md}
     You can check it out \href{https://github.com/Sdrf1445/CW1402FINAL}{\textcolor{blue}{here}}  
