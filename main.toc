@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {1}Git and GitHub}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Repository Initialization and Commits}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}GitHub Actions for LaTeX Compilation}{2}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Exploration Task}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Vim Advanced Features}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Memory profiling}{2}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Memory Leak}{2}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Memory profilers}{3}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}GNU/Linux Bash Scripting}{3}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}fzf}{3}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Using fzf to find your favorite PDF}{3}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Opening the file using Zathura}{3}{subsubsection.2.3.3}%
+\contentsline {section}{\numberline {3}Git and FOSS}{4}{section.3}%
+\contentsline {subsubsection}{\numberline {3.0.1}README.md}{4}{subsubsection.3.0.1}%
+\contentsline {subsection}{\numberline {3.1}Issues}{4}{subsection.3.1}%
